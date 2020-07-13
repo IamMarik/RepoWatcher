@@ -1,0 +1,907 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EC7BD04624BC36A100EA4F21 /* fastlane in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD04524BC36A100EA4F21 /* fastlane */; };
+		EC7BD04824BC36A100EA4F21 /* ci in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD04724BC36A100EA4F21 /* ci */; };
+		EC7BD04A24BC36A100EA4F21 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD04924BC36A100EA4F21 /* Podfile */; };
+		EC7BD04C24BC36A100EA4F21 /* .gitignore in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD04B24BC36A100EA4F21 /* .gitignore */; };
+		EC7BD06E24BC36A100EA4F21 /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD06D24BC36A100EA4F21 /* LaunchScreen.xib */; };
+		EC7BD07024BC36A100EA4F21 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD06F24BC36A100EA4F21 /* Assets.xcassets */; };
+		EC7BD07224BC36A100EA4F21 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD07124BC36A100EA4F21 /* AppDelegate.swift */; };
+		EC7BD07624BC36A100EA4F21 /* Localizable.strings in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD07524BC36A100EA4F21 /* Localizable.strings */; };
+		EC7BD07824BC36A100EA4F21 /* Assets.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD07724BC36A100EA4F21 /* Assets.swift */; };
+		EC7BD07A24BC36A100EA4F21 /* Fonts.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD07924BC36A100EA4F21 /* Fonts.swift */; };
+		EC7BD07C24BC36A100EA4F21 /* Strings.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD07B24BC36A100EA4F21 /* Strings.swift */; };
+		EC7BD07F24BC36A100EA4F21 /* Colors.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD07E24BC36A100EA4F21 /* Colors.swift */; };
+		EC7BD08124BC36A100EA4F21 /* swiftgen.yml in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD08024BC36A100EA4F21 /* swiftgen.yml */; };
+		EC7BD08324BC36A100EA4F21 /* .swiftlint.yml in Resources */ = {isa = PBXBuildFile; fileRef = EC7BD08224BC36A100EA4F21 /* .swiftlint.yml */; };
+		EC7BD08824BC36A100EA4F21 /* BaseCoordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD08724BC36A100EA4F21 /* BaseCoordinator.swift */; };
+		EC7BD08B24BC36A100EA4F21 /* UIApplication.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD08A24BC36A100EA4F21 /* UIApplication.swift */; };
+		EC7BD08D24BC36A100EA4F21 /* Coordinator.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD08C24BC36A100EA4F21 /* Coordinator.swift */; };
+		EC7BD08F24BC36A100EA4F21 /* Presentable.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD08E24BC36A100EA4F21 /* Presentable.swift */; };
+		EC7BD09124BC36A100EA4F21 /* Router.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD09024BC36A100EA4F21 /* Router.swift */; };
+		EC7BD09324BC36A100EA4F21 /* MainRouter.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD09224BC36A100EA4F21 /* MainRouter.swift */; };
+		EC7BD09524BC36A100EA4F21 /* DeepLinkOption.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD09424BC36A100EA4F21 /* DeepLinkOption.swift */; };
+		EC7BD0A224BC36A200EA4F21 /* RepoWatcherTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD0A124BC36A200EA4F21 /* RepoWatcherTests.swift */; };
+		EC7BD0A724BC36A200EA4F21 /* XCTestCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD0A624BC36A200EA4F21 /* XCTestCase.swift */; };
+		EC7BD0B224BC36A200EA4F21 /* RepoWatcherUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EC7BD0B124BC36A200EA4F21 /* RepoWatcherUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EC7BD09E24BC36A200EA4F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7BD03724BC36A100EA4F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7BD04024BC36A100EA4F21;
+			remoteInfo = RepoWatcher;
+		};
+		EC7BD0AE24BC36A200EA4F21 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EC7BD03724BC36A100EA4F21 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EC7BD04024BC36A100EA4F21;
+			remoteInfo = RepoWatcher;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EC7BD04124BC36A100EA4F21 /* RepoWatcher.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = RepoWatcher.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7BD04524BC36A100EA4F21 /* fastlane */ = {isa = PBXFileReference; lastKnownFileType = folder; name = fastlane; path = ../../fastlane; sourceTree = "<group>"; };
+		EC7BD04724BC36A100EA4F21 /* ci */ = {isa = PBXFileReference; lastKnownFileType = folder; name = ci; path = ../../ci; sourceTree = "<group>"; };
+		EC7BD04924BC36A100EA4F21 /* Podfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Podfile; path = ../../Podfile; sourceTree = "<group>"; };
+		EC7BD04B24BC36A100EA4F21 /* .gitignore */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitignore; path = ../../.gitignore; sourceTree = "<group>"; };
+		EC7BD04E24BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05024BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05324BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05524BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05724BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05924BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05C24BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD05E24BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06124BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06324BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06524BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06724BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06924BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06B24BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD06D24BC36A100EA4F21 /* LaunchScreen.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = LaunchScreen.xib; sourceTree = "<group>"; };
+		EC7BD06F24BC36A100EA4F21 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EC7BD07124BC36A100EA4F21 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EC7BD07424BC36A100EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD07524BC36A100EA4F21 /* Localizable.strings */ = {isa = PBXFileReference; lastKnownFileType = text.plist.strings; path = Localizable.strings; sourceTree = "<group>"; };
+		EC7BD07724BC36A100EA4F21 /* Assets.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Assets.swift; sourceTree = "<group>"; };
+		EC7BD07924BC36A100EA4F21 /* Fonts.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Fonts.swift; sourceTree = "<group>"; };
+		EC7BD07B24BC36A100EA4F21 /* Strings.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Strings.swift; sourceTree = "<group>"; };
+		EC7BD07E24BC36A100EA4F21 /* Colors.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Colors.swift; sourceTree = "<group>"; };
+		EC7BD08024BC36A100EA4F21 /* swiftgen.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = swiftgen.yml; path = ../../swiftgen.yml; sourceTree = "<group>"; };
+		EC7BD08224BC36A100EA4F21 /* .swiftlint.yml */ = {isa = PBXFileReference; lastKnownFileType = text.yaml; name = .swiftlint.yml; path = ../../.swiftlint.yml; sourceTree = "<group>"; };
+		EC7BD08424BC36A100EA4F21 /* Gemfile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Gemfile; path = ../../Gemfile; sourceTree = "<group>"; };
+		EC7BD08524BC36A100EA4F21 /* commit-msg */ = {isa = PBXFileReference; lastKnownFileType = text; name = "commit-msg"; path = "../../commit-msg"; sourceTree = "<group>"; };
+		EC7BD08624BC36A100EA4F21 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../../README.md; sourceTree = "<group>"; };
+		EC7BD08724BC36A100EA4F21 /* BaseCoordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseCoordinator.swift; sourceTree = "<group>"; };
+		EC7BD08A24BC36A100EA4F21 /* UIApplication.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UIApplication.swift; sourceTree = "<group>"; };
+		EC7BD08C24BC36A100EA4F21 /* Coordinator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Coordinator.swift; sourceTree = "<group>"; };
+		EC7BD08E24BC36A100EA4F21 /* Presentable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Presentable.swift; sourceTree = "<group>"; };
+		EC7BD09024BC36A100EA4F21 /* Router.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Router.swift; sourceTree = "<group>"; };
+		EC7BD09224BC36A100EA4F21 /* MainRouter.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainRouter.swift; sourceTree = "<group>"; };
+		EC7BD09424BC36A100EA4F21 /* DeepLinkOption.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DeepLinkOption.swift; sourceTree = "<group>"; };
+		EC7BD09624BC36A100EA4F21 /* Makefile */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.make; name = Makefile; path = ../../Makefile; sourceTree = "<group>"; };
+		EC7BD09724BC36A100EA4F21 /* Rambafile */ = {isa = PBXFileReference; lastKnownFileType = text; name = Rambafile; path = ../../Rambafile; sourceTree = "<group>"; };
+		EC7BD09824BC36A100EA4F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7BD09D24BC36A200EA4F21 /* RepoWatcherTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoWatcherTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7BD0A124BC36A200EA4F21 /* RepoWatcherTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoWatcherTests.swift; sourceTree = "<group>"; };
+		EC7BD0A424BC36A200EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; path = .gitkeep; sourceTree = "<group>"; };
+		EC7BD0A524BC36A200EA4F21 /* .gitkeep */ = {isa = PBXFileReference; lastKnownFileType = text; name = .gitkeep; path = Resources/.gitkeep; sourceTree = "<group>"; };
+		EC7BD0A624BC36A200EA4F21 /* XCTestCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; name = XCTestCase.swift; path = ../XCTestCase.swift; sourceTree = "<group>"; };
+		EC7BD0A824BC36A200EA4F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EC7BD0AD24BC36A200EA4F21 /* RepoWatcherUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = RepoWatcherUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC7BD0B124BC36A200EA4F21 /* RepoWatcherUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepoWatcherUITests.swift; sourceTree = "<group>"; };
+		EC7BD0B324BC36A200EA4F21 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EC7BD03C24BC36A100EA4F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7BD09A24BC36A200EA4F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7BD0AA24BC36A200EA4F21 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EC7BD03624BC36A100EA4F21 = {
+			isa = PBXGroup;
+			children = (
+				EC7BD04324BC36A100EA4F21 /* RepoWatcher */,
+				EC7BD0A024BC36A200EA4F21 /* RepoWatcherTests */,
+				EC7BD0B024BC36A200EA4F21 /* RepoWatcherUITests */,
+				EC7BD04224BC36A100EA4F21 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EC7BD04224BC36A100EA4F21 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD04124BC36A100EA4F21 /* RepoWatcher.app */,
+				EC7BD09D24BC36A200EA4F21 /* RepoWatcherTests.xctest */,
+				EC7BD0AD24BC36A200EA4F21 /* RepoWatcherUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EC7BD04324BC36A100EA4F21 /* RepoWatcher */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD09824BC36A100EA4F21 /* Info.plist */,
+				EC7BD04424BC36A100EA4F21 /* Non-iOS Resources */,
+				EC7BD04D24BC36A100EA4F21 /* Third Party */,
+				EC7BD04F24BC36A100EA4F21 /* Services */,
+				EC7BD05124BC36A100EA4F21 /* Resources */,
+				EC7BD05A24BC36A100EA4F21 /* Models */,
+				EC7BD05F24BC36A100EA4F21 /* Library */,
+				EC7BD06C24BC36A100EA4F21 /* Application */,
+				EC7BD07324BC36A100EA4F21 /* Flows */,
+			);
+			path = RepoWatcher;
+			sourceTree = "<group>";
+		};
+		EC7BD04424BC36A100EA4F21 /* Non-iOS Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD04524BC36A100EA4F21 /* fastlane */,
+				EC7BD04724BC36A100EA4F21 /* ci */,
+				EC7BD04924BC36A100EA4F21 /* Podfile */,
+				EC7BD04B24BC36A100EA4F21 /* .gitignore */,
+				EC7BD08024BC36A100EA4F21 /* swiftgen.yml */,
+				EC7BD08224BC36A100EA4F21 /* .swiftlint.yml */,
+				EC7BD08424BC36A100EA4F21 /* Gemfile */,
+				EC7BD08524BC36A100EA4F21 /* commit-msg */,
+				EC7BD08624BC36A100EA4F21 /* README.md */,
+				EC7BD09624BC36A100EA4F21 /* Makefile */,
+				EC7BD09724BC36A100EA4F21 /* Rambafile */,
+			);
+			path = "Non-iOS Resources";
+			sourceTree = "<group>";
+		};
+		EC7BD04D24BC36A100EA4F21 /* Third Party */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD04E24BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = "Third Party";
+			sourceTree = "<group>";
+		};
+		EC7BD04F24BC36A100EA4F21 /* Services */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05024BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = Services;
+			sourceTree = "<group>";
+		};
+		EC7BD05124BC36A100EA4F21 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05224BC36A100EA4F21 /* Strings */,
+				EC7BD05424BC36A100EA4F21 /* Images */,
+				EC7BD05624BC36A100EA4F21 /* Constants */,
+				EC7BD05824BC36A100EA4F21 /* Fonts */,
+				EC7BD07D24BC36A100EA4F21 /* Colors */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		EC7BD05224BC36A100EA4F21 /* Strings */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05324BC36A100EA4F21 /* .gitkeep */,
+				EC7BD07524BC36A100EA4F21 /* Localizable.strings */,
+				EC7BD07B24BC36A100EA4F21 /* Strings.swift */,
+			);
+			path = Strings;
+			sourceTree = "<group>";
+		};
+		EC7BD05424BC36A100EA4F21 /* Images */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05524BC36A100EA4F21 /* .gitkeep */,
+				EC7BD06F24BC36A100EA4F21 /* Assets.xcassets */,
+				EC7BD07724BC36A100EA4F21 /* Assets.swift */,
+			);
+			path = Images;
+			sourceTree = "<group>";
+		};
+		EC7BD05624BC36A100EA4F21 /* Constants */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05724BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = Constants;
+			sourceTree = "<group>";
+		};
+		EC7BD05824BC36A100EA4F21 /* Fonts */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05924BC36A100EA4F21 /* .gitkeep */,
+				EC7BD07924BC36A100EA4F21 /* Fonts.swift */,
+			);
+			path = Fonts;
+			sourceTree = "<group>";
+		};
+		EC7BD05A24BC36A100EA4F21 /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05B24BC36A100EA4F21 /* Entity */,
+				EC7BD05D24BC36A100EA4F21 /* Entry */,
+			);
+			path = Models;
+			sourceTree = "<group>";
+		};
+		EC7BD05B24BC36A100EA4F21 /* Entity */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05C24BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = Entity;
+			sourceTree = "<group>";
+		};
+		EC7BD05D24BC36A100EA4F21 /* Entry */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD05E24BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = Entry;
+			sourceTree = "<group>";
+		};
+		EC7BD05F24BC36A100EA4F21 /* Library */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06024BC36A100EA4F21 /* Base Classes */,
+				EC7BD06224BC36A100EA4F21 /* Utils */,
+				EC7BD06424BC36A100EA4F21 /* Extensions */,
+				EC7BD06624BC36A100EA4F21 /* Reusable Layer */,
+				EC7BD06824BC36A100EA4F21 /* Protocols */,
+				EC7BD06A24BC36A100EA4F21 /* Routers */,
+			);
+			path = Library;
+			sourceTree = "<group>";
+		};
+		EC7BD06024BC36A100EA4F21 /* Base Classes */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06124BC36A100EA4F21 /* .gitkeep */,
+				EC7BD08724BC36A100EA4F21 /* BaseCoordinator.swift */,
+			);
+			path = "Base Classes";
+			sourceTree = "<group>";
+		};
+		EC7BD06224BC36A100EA4F21 /* Utils */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06324BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = Utils;
+			sourceTree = "<group>";
+		};
+		EC7BD06424BC36A100EA4F21 /* Extensions */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06524BC36A100EA4F21 /* .gitkeep */,
+				EC7BD08924BC36A100EA4F21 /* UIKit */,
+			);
+			path = Extensions;
+			sourceTree = "<group>";
+		};
+		EC7BD06624BC36A100EA4F21 /* Reusable Layer */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06724BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = "Reusable Layer";
+			sourceTree = "<group>";
+		};
+		EC7BD06824BC36A100EA4F21 /* Protocols */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06924BC36A100EA4F21 /* .gitkeep */,
+				EC7BD08C24BC36A100EA4F21 /* Coordinator.swift */,
+				EC7BD08E24BC36A100EA4F21 /* Presentable.swift */,
+				EC7BD09024BC36A100EA4F21 /* Router.swift */,
+			);
+			path = Protocols;
+			sourceTree = "<group>";
+		};
+		EC7BD06A24BC36A100EA4F21 /* Routers */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06B24BC36A100EA4F21 /* .gitkeep */,
+				EC7BD09224BC36A100EA4F21 /* MainRouter.swift */,
+			);
+			path = Routers;
+			sourceTree = "<group>";
+		};
+		EC7BD06C24BC36A100EA4F21 /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD06D24BC36A100EA4F21 /* LaunchScreen.xib */,
+				EC7BD07124BC36A100EA4F21 /* AppDelegate.swift */,
+				EC7BD09424BC36A100EA4F21 /* DeepLinkOption.swift */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		EC7BD07324BC36A100EA4F21 /* Flows */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD07424BC36A100EA4F21 /* .gitkeep */,
+			);
+			path = Flows;
+			sourceTree = "<group>";
+		};
+		EC7BD07D24BC36A100EA4F21 /* Colors */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD07E24BC36A100EA4F21 /* Colors.swift */,
+			);
+			path = Colors;
+			sourceTree = "<group>";
+		};
+		EC7BD08924BC36A100EA4F21 /* UIKit */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD08A24BC36A100EA4F21 /* UIApplication.swift */,
+			);
+			path = UIKit;
+			sourceTree = "<group>";
+		};
+		EC7BD0A024BC36A200EA4F21 /* RepoWatcherTests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD0A124BC36A200EA4F21 /* RepoWatcherTests.swift */,
+				EC7BD0A524BC36A200EA4F21 /* .gitkeep */,
+				EC7BD0A624BC36A200EA4F21 /* XCTestCase.swift */,
+				EC7BD0A824BC36A200EA4F21 /* Info.plist */,
+				EC7BD0A324BC36A200EA4F21 /* Tests */,
+			);
+			path = RepoWatcherTests;
+			sourceTree = "<group>";
+		};
+		EC7BD0A324BC36A200EA4F21 /* Tests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD0A424BC36A200EA4F21 /* .gitkeep */,
+			);
+			path = Tests;
+			sourceTree = "<group>";
+		};
+		EC7BD0B024BC36A200EA4F21 /* RepoWatcherUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EC7BD0B124BC36A200EA4F21 /* RepoWatcherUITests.swift */,
+				EC7BD0B324BC36A200EA4F21 /* Info.plist */,
+			);
+			path = RepoWatcherUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EC7BD04024BC36A100EA4F21 /* RepoWatcher */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7BD0B624BC36A200EA4F21 /* Build configuration list for PBXNativeTarget "RepoWatcher" */;
+			buildPhases = (
+				EC7BD03B24BC36A100EA4F21 /* Sources */,
+				EC7BD03C24BC36A100EA4F21 /* Frameworks */,
+				EC7BD03D24BC36A100EA4F21 /* Resources */,
+				EC7BD03E24BC36A100EA4F21 /* Swift Lint */,
+				EC7BD03F24BC36A100EA4F21 /* Swift Gen */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = RepoWatcher;
+			productName = RepoWatcher;
+			productReference = EC7BD04124BC36A100EA4F21 /* RepoWatcher.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EC7BD09C24BC36A200EA4F21 /* RepoWatcherTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7BD0B924BC36A200EA4F21 /* Build configuration list for PBXNativeTarget "RepoWatcherTests" */;
+			buildPhases = (
+				EC7BD09924BC36A200EA4F21 /* Sources */,
+				EC7BD09A24BC36A200EA4F21 /* Frameworks */,
+				EC7BD09B24BC36A200EA4F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7BD09F24BC36A200EA4F21 /* PBXTargetDependency */,
+			);
+			name = RepoWatcherTests;
+			productName = RepoWatcherTests;
+			productReference = EC7BD09D24BC36A200EA4F21 /* RepoWatcherTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EC7BD0AC24BC36A200EA4F21 /* RepoWatcherUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EC7BD0BC24BC36A200EA4F21 /* Build configuration list for PBXNativeTarget "RepoWatcherUITests" */;
+			buildPhases = (
+				EC7BD0A924BC36A200EA4F21 /* Sources */,
+				EC7BD0AA24BC36A200EA4F21 /* Frameworks */,
+				EC7BD0AB24BC36A200EA4F21 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EC7BD0AF24BC36A200EA4F21 /* PBXTargetDependency */,
+			);
+			name = RepoWatcherUITests;
+			productName = RepoWatcherUITests;
+			productReference = EC7BD0AD24BC36A200EA4F21 /* RepoWatcherUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EC7BD03724BC36A100EA4F21 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1150;
+				LastUpgradeCheck = 1150;
+				ORGANIZATIONNAME = mpd;
+				TargetAttributes = {
+					EC7BD04024BC36A100EA4F21 = {
+						CreatedOnToolsVersion = 11.5;
+					};
+					EC7BD09C24BC36A200EA4F21 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EC7BD04024BC36A100EA4F21;
+					};
+					EC7BD0AC24BC36A200EA4F21 = {
+						CreatedOnToolsVersion = 11.5;
+						TestTargetID = EC7BD04024BC36A100EA4F21;
+					};
+				};
+			};
+			buildConfigurationList = EC7BD03A24BC36A100EA4F21 /* Build configuration list for PBXProject "RepoWatcher" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EC7BD03624BC36A100EA4F21;
+			productRefGroup = EC7BD04224BC36A100EA4F21 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EC7BD04024BC36A100EA4F21 /* RepoWatcher */,
+				EC7BD09C24BC36A200EA4F21 /* RepoWatcherTests */,
+				EC7BD0AC24BC36A200EA4F21 /* RepoWatcherUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EC7BD03D24BC36A100EA4F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BD08324BC36A100EA4F21 /* .swiftlint.yml in Resources */,
+				EC7BD06E24BC36A100EA4F21 /* LaunchScreen.xib in Resources */,
+				EC7BD04C24BC36A100EA4F21 /* .gitignore in Resources */,
+				EC7BD04A24BC36A100EA4F21 /* Podfile in Resources */,
+				EC7BD08124BC36A100EA4F21 /* swiftgen.yml in Resources */,
+				EC7BD07624BC36A100EA4F21 /* Localizable.strings in Resources */,
+				EC7BD04824BC36A100EA4F21 /* ci in Resources */,
+				EC7BD07024BC36A100EA4F21 /* Assets.xcassets in Resources */,
+				EC7BD04624BC36A100EA4F21 /* fastlane in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7BD09B24BC36A200EA4F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7BD0AB24BC36A200EA4F21 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		EC7BD03E24BC36A100EA4F21 /* Swift Lint */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Lint";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Pods/SwiftLint/swiftlint --config \"${SRCROOT}/.swiftlint.yml\"";
+		};
+		EC7BD03F24BC36A100EA4F21 /* Swift Gen */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			name = "Swift Gen";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "${SRCROOT}/Pods/SwiftGen/bin/swiftgen";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EC7BD03B24BC36A100EA4F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BD08D24BC36A100EA4F21 /* Coordinator.swift in Sources */,
+				EC7BD07824BC36A100EA4F21 /* Assets.swift in Sources */,
+				EC7BD09124BC36A100EA4F21 /* Router.swift in Sources */,
+				EC7BD08B24BC36A100EA4F21 /* UIApplication.swift in Sources */,
+				EC7BD09524BC36A100EA4F21 /* DeepLinkOption.swift in Sources */,
+				EC7BD08824BC36A100EA4F21 /* BaseCoordinator.swift in Sources */,
+				EC7BD07F24BC36A100EA4F21 /* Colors.swift in Sources */,
+				EC7BD07A24BC36A100EA4F21 /* Fonts.swift in Sources */,
+				EC7BD07C24BC36A100EA4F21 /* Strings.swift in Sources */,
+				EC7BD07224BC36A100EA4F21 /* AppDelegate.swift in Sources */,
+				EC7BD09324BC36A100EA4F21 /* MainRouter.swift in Sources */,
+				EC7BD08F24BC36A100EA4F21 /* Presentable.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7BD09924BC36A200EA4F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BD0A724BC36A200EA4F21 /* XCTestCase.swift in Sources */,
+				EC7BD0A224BC36A200EA4F21 /* RepoWatcherTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EC7BD0A924BC36A200EA4F21 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EC7BD0B224BC36A200EA4F21 /* RepoWatcherUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EC7BD09F24BC36A200EA4F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7BD04024BC36A100EA4F21 /* RepoWatcher */;
+			targetProxy = EC7BD09E24BC36A200EA4F21 /* PBXContainerItemProxy */;
+		};
+		EC7BD0AF24BC36A200EA4F21 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EC7BD04024BC36A100EA4F21 /* RepoWatcher */;
+			targetProxy = EC7BD0AE24BC36A200EA4F21 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		EC7BD0B424BC36A200EA4F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EC7BD0B524BC36A200EA4F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EC7BD0B724BC36A200EA4F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJTA597XSC;
+				INFOPLIST_FILE = RepoWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.com.RepoWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EC7BD0B824BC36A200EA4F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJTA597XSC;
+				INFOPLIST_FILE = RepoWatcher/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.com.RepoWatcher;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EC7BD0BA24BC36A200EA4F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJTA597XSC;
+				INFOPLIST_FILE = RepoWatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.com.RepoWatcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoWatcher.app/RepoWatcher";
+			};
+			name = Debug;
+		};
+		EC7BD0BB24BC36A200EA4F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJTA597XSC;
+				INFOPLIST_FILE = RepoWatcherTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.com.RepoWatcherTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/RepoWatcher.app/RepoWatcher";
+			};
+			name = Release;
+		};
+		EC7BD0BD24BC36A200EA4F21 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJTA597XSC;
+				INFOPLIST_FILE = RepoWatcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.com.RepoWatcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RepoWatcher;
+			};
+			name = Debug;
+		};
+		EC7BD0BE24BC36A200EA4F21 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = VJTA597XSC;
+				INFOPLIST_FILE = RepoWatcherUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = testapp.com.RepoWatcherUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = RepoWatcher;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EC7BD03A24BC36A100EA4F21 /* Build configuration list for PBXProject "RepoWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7BD0B424BC36A200EA4F21 /* Debug */,
+				EC7BD0B524BC36A200EA4F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7BD0B624BC36A200EA4F21 /* Build configuration list for PBXNativeTarget "RepoWatcher" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7BD0B724BC36A200EA4F21 /* Debug */,
+				EC7BD0B824BC36A200EA4F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7BD0B924BC36A200EA4F21 /* Build configuration list for PBXNativeTarget "RepoWatcherTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7BD0BA24BC36A200EA4F21 /* Debug */,
+				EC7BD0BB24BC36A200EA4F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EC7BD0BC24BC36A200EA4F21 /* Build configuration list for PBXNativeTarget "RepoWatcherUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EC7BD0BD24BC36A200EA4F21 /* Debug */,
+				EC7BD0BE24BC36A200EA4F21 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EC7BD03724BC36A100EA4F21 /* Project object */;
+}

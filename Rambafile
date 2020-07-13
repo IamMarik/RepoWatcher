@@ -1,0 +1,38 @@
+### Headers settings
+company: mpd
+
+### Xcode project settings
+project_name: RepoWatcher
+xcodeproj_path: RepoWatcher.xcodeproj
+
+### Code generation settings section
+# The main project target name
+project_target: RepoWatcher
+
+# The file path for new modules
+project_file_path: RepoWatcher/Flows
+
+# The Xcode group path to new modules
+project_group_path: RepoWatcher/Flows
+
+### Tests generation settings section
+# The tests target name
+test_target: RepoWatcherTests
+
+# The file path for new tests
+test_file_path: RepoWatcherTests/Tests/Flows
+
+# The Xcode group path to new tests
+test_group_path: RepoWatcherTests/Tests/Flows
+
+### Dependencies settings section
+podfile_path: Podfile
+
+### Catalogs
+catalogs:
+- 'https://github.com/surfstudio/generamba-templates'
+
+### Templates
+templates:
+- {name: surf_mvp_coordinatable_module}
+- {name: surf_mvp_coordinatable_alert}
